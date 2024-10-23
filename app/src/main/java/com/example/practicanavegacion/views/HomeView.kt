@@ -65,13 +65,13 @@ fun ContentHomeView(navController: NavController ) {
     Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center)
     {
         Text(text = "PRACTICA NAVEGACIÓN", fontWeight = FontWeight.Bold, fontSize = 30.sp, modifier = Modifier.padding(vertical = 30.dp))
-            MainButton(name = "Loteria View", backColor = Color.Blue, color = Color.White) {
+            MainButton(name = "              Loteria              ", backColor = Color.Blue, color = Color.White) {
                 navController.navigate("Loteria")
             }
-            MainButton(name = "Perrunos View", backColor = Color.Blue, color = Color.White) {
+            MainButton(name = "       Años Perrunos       ", backColor = Color.Blue, color = Color.White) {
                 navController.navigate("Perrunos")
             }
-            MainButton(name = "Descuento View", backColor = Color.Blue, color = Color.White) {
+            MainButton(name = "Calculadora Descuento", backColor = Color.Blue, color = Color.White) {
                 navController.navigate("Descuento")
             }
 
